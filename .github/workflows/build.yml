@@ -3,8 +3,9 @@ name: Construir APK SASOL
 on:
   workflow_dispatch:
   push:
-    branches:
-      - principal
+  branches:
+    - main
+    - principal
 
 jobs:
   build:
