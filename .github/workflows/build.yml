@@ -29,5 +29,5 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: sasol-debug-apk
-          path: app/build/outputs/apk/debug/*.apk
+          path: '**/outputs/apk/debug/*.apk'
           
